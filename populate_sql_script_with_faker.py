@@ -16,7 +16,7 @@ user = ...
 conn = mysql.connector.connect(
     host="localhost",        
     user="root",            
-    password="47Nbm|}4B11=",
+    password="",
     database="churn_db"
 )
 
