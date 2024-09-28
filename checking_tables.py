@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 import time
 
 # connecting to the sql db via sqlalchemy instead of mysql conn, due to pandas conflict
-engine = create_engine('mysql+pymysql://root:47Nbm|}4B11=@localhost/churn_db')
+engine = create_engine('mysql+pymysql://root:(password)@localhost/churn_db')
 
 customers = pd.read_sql_query("SELECT * FROM customers", engine)
 subscriptions = pd.read_sql_query("SELECT * FROM subscriptions", engine)
