@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-engine = create_engine('mysql+pymysql://root:47Nbm|}4B11=@localhost/churn_db')
+engine = create_engine('mysql+pymysql://root:(password)@localhost/churn_db')
 
 class FeatEngineering:
     def __init__(self):
