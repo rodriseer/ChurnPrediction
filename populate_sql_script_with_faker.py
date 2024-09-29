@@ -11,7 +11,7 @@ fake.seed_instance(9971)
 conn = mysql.connector.connect(
     host="localhost",        
     user="root",            
-    password="...",
+    password="(password)",
     database="churn_db"
 )
 
